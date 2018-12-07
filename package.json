@@ -1,0 +1,25 @@
+{
+  "name": "sao-tm",
+  "version": "0.0.1",
+  "description": "create new typescript module",
+  "repository": {
+    "url": "djyde/sao-tm",
+    "type": "git"
+  },
+  "author": "djyde <randypriv@gmail.com> (github.com/djyde)",
+  "license": "MIT",
+  "files": [
+    "saofile.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "superb": "^1.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sao": "^1.0.0"
+  }
+}
