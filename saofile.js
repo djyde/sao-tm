@@ -37,11 +37,13 @@ module.exports = {
       },
       {
         name: 'isNode',
+        type: 'confirm',
         message: 'It is a Node.js module?',
         default: true
       },
       {
         name: 'isReact',
+        type: 'confirm',
         message: 'Use React?',
         default: false
       }
