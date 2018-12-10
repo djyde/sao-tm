@@ -13,6 +13,7 @@
     "template"
   ],
   "scripts": {
+    "prepublish": "npm test",
     "test": "jest"
   },
   "dependencies": {
@@ -23,6 +24,11 @@
     "sao-generator",
     "typescript"
   ],
+  "jest": {
+    "testPathIgnorePatterns": [
+      "template"
+    ]
+  },
   "devDependencies": {
     "jest": "^23.6.0"
   }

@@ -5,7 +5,7 @@ exports[`sao-tm should include React 1`] = `
 
 [![NPMVersion](https://badgen.net/npm/v/foo)](https://npm.im/foo)
 
-> my groundbreaking project
+> awesome
 
 ## License
 
@@ -34,6 +34,10 @@ exports[`sao-tm should include React 2`] = `
     
     \\"@types/react\\": \\"^16\\",
     \\"@types/react-dom\\": \\"^16\\",
+    \\"react-test-renderer\\": \\"^16\\",
+    \\"babel-jest\\": \\"^23\\",
+    \\"babel-preset-env\\": \\"^1\\",
+    \\"babel-preset-react\\": \\"^6\\",
     
     \\"typescript\\": \\"^3\\",
     \\"jest\\": \\"^23\\"
@@ -46,7 +50,7 @@ exports[`sao-tm should not include React 1`] = `
 
 [![NPMVersion](https://badgen.net/npm/v/foo)](https://npm.im/foo)
 
-> my fantabulous project
+> awesome
 
 ## License
 

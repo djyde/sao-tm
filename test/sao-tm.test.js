@@ -5,6 +5,7 @@ describe('sao-tm', async () => {
   it('should not include React', async () => {
     const mockPromptAnswers = {
       name: 'foo',
+      description: 'awesome',
     }
     const generator = path.join(__dirname, '..')
     const stream = await sao.mock({ generator }, mockPromptAnswers)
@@ -17,6 +18,7 @@ describe('sao-tm', async () => {
     const mockPromptAnswers = {
       name: 'foo',
       isReact: true,
+      description: 'awesome',
       isNode: false
     }
     const generator = path.join(__dirname, '..')
