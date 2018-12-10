@@ -55,6 +55,12 @@ module.exports = {
     {
       type: 'move',
       patterns: {
+        '_package.json': 'package.json'
+      }
+    },
+    {
+      type: 'move',
+      patterns: {
         gitignore: '.gitignore'
       }
     }
