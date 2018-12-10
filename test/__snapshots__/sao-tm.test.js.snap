@@ -5,7 +5,7 @@ exports[`sao-tm should include React 1`] = `
 
 [![NPMVersion](https://badgen.net/npm/v/foo)](https://npm.im/foo)
 
-> my stunning project
+> my groundbreaking project
 
 ## License
 
@@ -17,7 +17,7 @@ exports[`sao-tm should include React 2`] = `
 "{
   \\"name\\": \\"foo\\",
   \\"version\\": \\"0.0.1\\",
-  \\"script\\": {
+  \\"scripts\\": {
     \\"dev\\": \\"tsc --watch\\",
     \\"build\\": \\"tsc\\",
     \\"test\\": \\"npm run build && jest\\",
@@ -25,15 +25,15 @@ exports[`sao-tm should include React 2`] = `
   },
   \\"dependencies\\": {
     
-      \\"react\\": \\"^16\\",
-      \\"react-dom\\": \\"^16\\"
+    \\"react\\": \\"^16\\",
+    \\"react-dom\\": \\"^16\\"
     
   },
   \\"devDependencies\\": {
     
     
-      \\"@types/react\\": \\"^16\\",
-      \\"@types/react-dom\\": \\"^16\\",
+    \\"@types/react\\": \\"^16\\",
+    \\"@types/react-dom\\": \\"^16\\",
     
     \\"typescript\\": \\"^3\\",
     \\"jest\\": \\"^23\\"
@@ -46,7 +46,7 @@ exports[`sao-tm should not include React 1`] = `
 
 [![NPMVersion](https://badgen.net/npm/v/foo)](https://npm.im/foo)
 
-> my brilliant project
+> my fantabulous project
 
 ## License
 
@@ -58,7 +58,7 @@ exports[`sao-tm should not include React 2`] = `
 "{
   \\"name\\": \\"foo\\",
   \\"version\\": \\"0.0.1\\",
-  \\"script\\": {
+  \\"scripts\\": {
     \\"dev\\": \\"tsc --watch\\",
     \\"build\\": \\"tsc\\",
     \\"test\\": \\"npm run build && jest\\",
@@ -69,7 +69,7 @@ exports[`sao-tm should not include React 2`] = `
   },
   \\"devDependencies\\": {
     
-      \\"@types/node\\": \\"^11\\",
+    \\"@types/node\\": \\"^11\\",
     
     
     \\"typescript\\": \\"^3\\",

@@ -1,7 +1,7 @@
 {
   "name": "<%= name %>",
   "version": "0.0.1",
-  "script": {
+  "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
     "test": "npm run build && jest",
@@ -9,17 +9,17 @@
   },
   "dependencies": {
     <% if (isReact) { %>
-      "react": "^16",
-      "react-dom": "^16"
+    "react": "^16",
+    "react-dom": "^16"
     <% } %>
   },
   "devDependencies": {
     <% if (isNode) { %>
-      "@types/node": "^11",
+    "@types/node": "^11",
     <% } %>
     <% if (isReact) { %>
-      "@types/react": "^16",
-      "@types/react-dom": "^16",
+    "@types/react": "^16",
+    "@types/react-dom": "^16",
     <% } %>
     "typescript": "^3",
     "jest": "^23"
