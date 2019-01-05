@@ -22,10 +22,10 @@
     "@types/react-dom": "^16",
     "react-test-renderer": "^16",
     "babel-jest": "^23",
-    "babel-preset-env": "^1",
     "babel-preset-react": "^6",
     <% } %>
     "typescript": "^3",
-    "jest": "^23"
+    "jest": "^23",
+    "babel-preset-env": "^1"
   }
 }
